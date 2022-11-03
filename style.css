@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,1d00;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   margin: 0;
@@ -36,6 +36,7 @@ header {
   width: 100%;
   height: calc(100vh - 48px);
   background-image: url("images/background.svg");
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 114px;
   display: flex;
@@ -59,7 +60,7 @@ header {
   padding: 0 24px;
 }
 
-#introduction > a {
+#introduction>a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -99,4 +100,16 @@ header {
 .btn:disabled {
   color: #556175;
   border: 1px solid #c1c7d0;
+}
+
+.mid {
+  padding: 20px;
+  background: white;
+  margin-right: 10px;
+}
+
+.center {
+  padding: 20px;
+  background: white;
+  margin-right: 10px;
 }
