@@ -1,7 +1,7 @@
 Here’s what I did for the README doc:
 7:31
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Hello Microverse! project
+# Portfolio! project
 > This project shows Hello Microverse text in the webpage.
 ## Built With
 - HTML and CSS
