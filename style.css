@@ -242,10 +242,9 @@ a:disabled:hover {
 }
 
 .present {
-  display: grid;
+  display: flex;
   row-gap: 15px;
   padding: 0 15px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 1px 8px #ddd;
