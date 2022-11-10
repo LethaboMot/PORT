@@ -144,9 +144,6 @@ a:disabled:hover {
   border: 1px solid #c6c6c6;
   padding: 20px 15px;
   display: grid;
-}
-
-.card {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -248,21 +245,10 @@ a:disabled:hover {
   display: grid;
   row-gap: 15px;
   padding: 0 15px;
-}
-
-.present {
-  display: flex;
+   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 1px 8px #ddd;
-}
-
-present_ul {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  list-style: none;
-  border-bottom: 1px solid white;
 }
 
 .sub_header {
