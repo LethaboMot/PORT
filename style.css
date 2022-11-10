@@ -138,6 +138,10 @@ a:disabled:hover {
 }
 
 .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 8px #ddd;
   background: #fff;
   border-radius: 10px;
   min-height: 3em;
@@ -243,6 +247,10 @@ a:disabled:hover {
 }
 
 .present {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 8px #ddd;
   display: grid;
   row-gap: 15px;
   padding: 0 15px;
@@ -394,13 +402,6 @@ a:disabled:hover {
   row-gap: 25px;
 }
 
-.the_social {
-  display: flex;
-  list-style: none;
-  margin-top: 10px;
-  align-items: center;
-}
-
 .the_social a {
   width: 15px;
   margin-top: 10px;
@@ -427,13 +428,6 @@ a:disabled:hover {
   font-style: normal;
   line-height: 24px;
   font-size: 16px;
-}
-
-.card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 1px 8px #ddd;
 }
 
 .present {
