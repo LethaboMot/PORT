@@ -37,6 +37,15 @@ html {
   align-items: center;
 }
 
+.introduction > a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  text-decoration: none;
+  padding: 0 24px;
+}
+
 header .toolbar a {
   text-decoration: none;
   color: #636fd4;
@@ -79,15 +88,6 @@ a:disabled:hover {
   font-weight: 400px;
   font-size: 16px;
   color: #344563;
-  padding: 0 24px;
-}
-
-.introduction > a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7f8cff;
-  text-decoration: none;
   padding: 0 24px;
 }
 
