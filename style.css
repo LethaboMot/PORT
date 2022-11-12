@@ -29,7 +29,7 @@ a:disabled {
   color: #6070ff;
 }
 
-/* Css for Header */
+/*Css for Header*/
 
 .top_part {
   font-family: 'Poppins', sans-serif;
@@ -88,7 +88,7 @@ a:disabled {
   background-color: #fff;
 }
 
-/* Css Styles for headline section */
+/*Css Styles for headline section */
 
 .Introduction {
   padding: 25px;
@@ -111,6 +111,8 @@ a:disabled {
   color: #172b4d;
   line-height: 52px;
   position: relative;
+  margin: 10px 0;
+  line-height: 44px;
 }
 
 .The_content {
@@ -156,7 +158,7 @@ a:disabled {
   width: 22px;
 }
 
-/* Css Styles for work section */
+/*work section */
 
 .start {
   margin: 25px 0;
@@ -190,16 +192,6 @@ a:disabled {
   grid-column: 1/-1;
   align-self: center;
   padding: 10px;
-}
-
-.The_title {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  margin: 10px 0;
-  color: #172b4d;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
 }
 
 .info {
@@ -275,7 +267,7 @@ a:disabled:hover {
   color: #5e6c84;
 }
 
-/* Css styles for about section */
+/*for about section */
 
 .about {
   display: grid;
