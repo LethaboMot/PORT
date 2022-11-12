@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,1d00;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,1d00;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
 
 * {
   margin: 0;
@@ -29,7 +29,7 @@ a:disabled {
   color: #6070ff;
 }
 
-/*Css for Header*/
+/* Css for Header */
 
 .top_part {
   font-family: 'Poppins', sans-serif;
@@ -80,7 +80,7 @@ a:disabled {
   background-color: #f7f7f9;
 }
 
-/*main_container*/
+/* Css styles for main_container */
 
 .container {
   display: grid;
@@ -88,7 +88,7 @@ a:disabled {
   background-color: #fff;
 }
 
-/*headline section*/
+/* Css Styles for headline section */
 
 .Introduction {
   padding: 25px;
@@ -156,7 +156,7 @@ a:disabled {
   width: 22px;
 }
 
-/*section*/
+/* Css Styles for work section */
 
 .start {
   margin: 25px 0;
@@ -192,7 +192,7 @@ a:disabled {
   padding: 10px;
 }
 
-.The_details {
+.The_title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   margin: 10px 0;
@@ -221,7 +221,7 @@ a:disabled {
   color: #344563;
 }
 
-.alignment:last-child {
+.alignment1:last-child {
   margin-right: 0;
 }
 
@@ -249,7 +249,7 @@ a:disabled {
   line-height: 16px;
 }
 
-.The_btn {
+.default_btn {
   cursor: pointer;
   font-size: 18px;
   margin-top: 20px;
@@ -275,7 +275,7 @@ a:disabled:hover {
   color: #5e6c84;
 }
 
-/*about section*/
+/* Css styles for about section */
 
 .about {
   display: grid;
@@ -440,7 +440,7 @@ a:disabled:hover {
     flex-direction: row;
   }
 
-  .Introduction {
+  .headline {
     min-height: 916px;
     background-repeat: no-repeat;
     display: flex;
@@ -455,20 +455,20 @@ a:disabled:hover {
     max-width: 920px;
   }
 
-  .start {
+  .work {
     margin: 25px 100px;
   }
 
-  .card {
+  .work_card {
     display: flex;
     flex-direction: row;
   }
 
-  .card:nth-child(even) .review {
+  .work_card:nth-child(even) .work_preview {
     order: 2;
   }
 
-  .details {
+  .work_details {
     margin-left: 15px;
   }
 
@@ -477,7 +477,7 @@ a:disabled:hover {
     padding: 25px 50px;
   }
 
-  .framework {
+  .about_framework {
     margin-top: 60px;
   }
 
