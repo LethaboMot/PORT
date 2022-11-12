@@ -29,7 +29,7 @@ a:disabled {
   color: #6070ff;
 }
 
-/* Css for Header */
+/*Css for Header*/
 
 .header_nav {
   font-family: 'Poppins', sans-serif;
@@ -80,7 +80,7 @@ a:disabled {
   background-color: #f7f7f9;
 }
 
-/* Css styles for main_container */
+/*Css styles for main_container*/
 
 .main_container {
   display: grid;
