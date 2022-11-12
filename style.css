@@ -431,7 +431,7 @@
             justify-self: center;
             flex-direction: row;
         }
-        .headline {
+        .Introduction {
             min-height: 916px;
             background-repeat: no-repeat;
             display: flex;
