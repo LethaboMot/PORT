@@ -507,9 +507,8 @@ a:disabled:hover {
     text-align: center;
   }
 
-  .form_container {
+    .form_container {
     width: 500px;
     justify-self: center;
-  } 
-  
+  }
 }
