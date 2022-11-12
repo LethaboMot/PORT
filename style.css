@@ -29,7 +29,7 @@ a:disabled {
   color: #6070ff;
 }
 
-/* Css for Header */
+/*Css for Header*/
 
 .top_part {
   font-family: 'Poppins', sans-serif;
@@ -80,7 +80,7 @@ a:disabled {
   background-color: #f7f7f9;
 }
 
-/*main_container */
+/*main_container*/
 
 .container {
   display: grid;
@@ -88,7 +88,7 @@ a:disabled {
   background-color: #fff;
 }
 
-/*headline section */
+/*headline section*/
 
 .Introduction {
   padding: 25px;
@@ -156,7 +156,7 @@ a:disabled {
   width: 22px;
 }
 
-/*section */
+/*section*/
 
 .start {
   margin: 25px 0;
@@ -275,7 +275,7 @@ a:disabled:hover {
   color: #5e6c84;
 }
 
-/*about section */
+/*about section*/
 
 .about {
   display: grid;
