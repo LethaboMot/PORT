@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,1d00;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,1d00;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
 
 * {
   margin: 0;
@@ -29,9 +29,9 @@ a:disabled {
   color: #6070ff;
 }
 
-/*Css for Header*/
+/* Css for Header */
 
-.top_part {
+.header_nav {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   display: flex;
@@ -41,21 +41,21 @@ a:disabled {
   justify-content: space-between;
 }
 
-.blue_logo {
+.header_logo {
   font-size: 22px;
   font-weight: 700;
   line-height: 20px;
 }
 
-.blue_logo a {
+.header_logo a {
   text-decoration: none;
 }
 
-.The_menu {
+.header_menu {
   padding: 3px 5px;
 }
 
-.icon {
+.menu_icon {
   width: 24px;
   height: auto;
 }
@@ -66,7 +66,7 @@ a:disabled {
   column-gap: 20px;
 }
 
-.action {
+.nav_item_action {
   font-size: 15px;
   font-weight: 500;
   color: #344563;
@@ -75,22 +75,22 @@ a:disabled {
   text-decoration: none;
 }
 
-.action:hover {
+.nav_item_action:hover {
   color: #396df2;
   background-color: #f7f7f9;
 }
 
-/*main_container*/
+/* Css styles for main_container */
 
-.container {
+.main_container {
   display: grid;
   row-gap: 25px;
   background-color: #fff;
 }
 
-/*for headline section*/
+/* Css Styles for headline section */
 
-.Introduction {
+.headline {
   padding: 25px;
   min-height: 50vh;
   background-size: contain;
@@ -101,7 +101,7 @@ a:disabled {
   background-image: url("./images/Header bg@2x.png");
 }
 
-.The_title {
+.headline_title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 40px;
@@ -111,11 +111,9 @@ a:disabled {
   color: #172b4d;
   line-height: 52px;
   position: relative;
-  margin: 10px 0;
-  line-height: 44px;
 }
 
-.The_content {
+.headline_content {
   margin: 15px 0;
   color: #344563;
   font-weight: 400;
@@ -126,14 +124,14 @@ a:disabled {
   font-size: 16px;
 }
 
-.CONNECT {
+.social_title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: normal;
 }
 
-.socials {
+.social_links {
   display: flex;
   list-style: none;
   margin-top: 10px;
@@ -158,9 +156,9 @@ a:disabled {
   width: 22px;
 }
 
-/*work section*/
+/* Css Styles for work section */
 
-.start {
+.work {
   margin: 25px 0;
   display: grid;
   row-gap: 25px;
@@ -169,7 +167,7 @@ a:disabled {
   justify-items: center;
 }
 
-.card {
+.work_card {
   background: #fff;
   border-radius: 10px;
   min-height: 3em;
@@ -178,23 +176,33 @@ a:disabled {
   display: grid;
 }
 
-.review {
+.work_preview {
   grid-column: 1/-1;
   justify-self: center;
   align-self: center;
 }
 
-.review img {
+.work_preview img {
   max-width: 100%;
 }
 
-.details {
+.work_details {
   grid-column: 1/-1;
   align-self: center;
   padding: 10px;
 }
 
-.info {
+.work_title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin: 10px 0;
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.work_info {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   display: flex;
@@ -202,18 +210,18 @@ a:disabled {
   color: #7a869a;
 }
 
-.alignment1 {
+.w_info_item {
   margin-right: 15px;
   list-style-position: inside;
 }
 
-.alignment1:first-child {
+.w_info_item:first-child {
   font-weight: bold;
   list-style: none;
   color: #344563;
 }
 
-.alignment1:last-child {
+.w_info_item:last-child {
   margin-right: 0;
 }
 
@@ -224,13 +232,13 @@ a:disabled {
   font-family: Poppins, sans-serif;
 }
 
-.coding {
+.work_cats {
   display: flex;
   flex-wrap: wrap;
   margin: 10px 0;
 }
 
-.coding > li {
+.work_cats > li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -252,12 +260,12 @@ a:disabled {
   border: 1px solid #396df2;
 }
 
-.The_btn:hover {
+.default_btn:hover {
   color: #fff;
   background: #396df2;
 }
 
-.The_btn:focus {
+.default_btn:focus {
   background: #2230d2;
   color: #fff;
 }
@@ -267,7 +275,7 @@ a:disabled:hover {
   color: #5e6c84;
 }
 
-/*for about section*/
+/* Css styles for about section */
 
 .about {
   display: grid;
@@ -275,7 +283,7 @@ a:disabled:hover {
   padding: 0 15px;
 }
 
-.JETT {
+.about_ul {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -283,7 +291,7 @@ a:disabled:hover {
   border-bottom: 1px solid #c6c6c6;
 }
 
-.sub_Name {
+.sub_title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -337,7 +345,7 @@ a:disabled:hover {
   background-color: #6070ff;
 }
 
-.Name {
+.Title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   text-align: center;
@@ -414,6 +422,7 @@ a:disabled:hover {
 .btn_submit:hover {
   color: #fff;
   background: #6070ff;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -421,7 +430,7 @@ a:disabled:hover {
     padding: 0 50px;
   }
 
-  .The_menu {
+  .header_menu {
     display: none;
   }
 
@@ -503,4 +512,3 @@ a:disabled:hover {
     width: 500px;
     justify-self: center;
   }
-}
