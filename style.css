@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,1d00;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
    
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
     
 a:hover {
   background: #6070ff;
   color: #fff;
- }
-    
+}
+
 a:focus {
   background: #2230d2;
   color: #fff;
@@ -19,15 +19,15 @@ a:focus {
 a:disabled {
   background: #fff;
   color: #5e6c84;
-    }
+}
     
 .html.body {
   font-family: Poppins, sans-serif;
-    }
+}
     
 .blue {
   color: #6070ff;
-    }
+}
        
 .top_part {
   font-family: 'Poppins', sans-serif;
@@ -40,9 +40,9 @@ a:disabled {
  }
     
 .blue_logo {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px;
 }
     
 .blue_logo a {
