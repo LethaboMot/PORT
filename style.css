@@ -29,8 +29,6 @@ a:disabled {
   color: #6070ff;
 }
 
-/*Css for Header*/
-
 .header_nav {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -80,15 +78,11 @@ a:disabled {
   background-color: #f7f7f9;
 }
 
-/*Css styles for main_container*/
-
 .main_container {
   display: grid;
   row-gap: 25px;
   background-color: #fff;
 }
-
-/*Css Styles for headline section*/
 
 .headline {
   padding: 25px;
@@ -155,8 +149,6 @@ a:disabled {
   margin-top: 4px;
   width: 22px;
 }
-
-/*Css Styles for work section*/
 
 .work {
   margin: 25px 0;
@@ -274,8 +266,6 @@ a:disabled:hover {
   background: #fff;
   color: #5e6c84;
 }
-
-/*Css styles for about section*/
 
 .about {
   display: grid;
